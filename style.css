@@ -1,0 +1,149 @@
+body,html{
+    background-color: rgba(209, 207, 207, 0.851);
+    width: 100%;
+    height: 100%;
+    
+}
+
+header{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:rgb(252, 87, 87);
+    height: 50px;
+    text-align: center;
+}
+
+@media only screen and (max-width:300){
+    
+}
+
+li{
+    text-align: center;
+    display: inline-block;
+    word-spacing: 1px;
+}    
+ul{
+    justify-content: space-between;
+    word-spacing: 15px;
+    
+}
+nav{
+    width: auto;
+}
+#head-container{
+    /*flex-direction: column;*/
+    align-items: center;
+    position: static;
+}
+#head-container nav{width: 100%;}
+#head-container nav ul{
+    
+    justify-content: center;
+    justify-content: space-around;
+}
+#head-container a{
+    color:black;
+    list-style-type: none;
+    text-decoration-line: none;
+    font-weight: bold;
+    font-size: 25px;
+  
+}
+.m1{
+    
+ height: 700px;
+}
+.child{
+    display: inline-block;
+    justify-content: center;
+}
+.both-img{
+    
+
+    
+    display: inline-block;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 150px;
+    padding-bottom:150px ;
+    padding-right: 30px;
+}
+.text-img{
+    
+    display: inline-block;
+    text-align: center;
+    padding-top: 180px;
+}
+.text-img h1{
+    align-content: center;
+}
+.text-img pre{
+    text-align: justify;
+    font-size: 15px;
+    text-indent: 1px;
+    
+}
+.text-img2{
+    float: right;
+    overflow: hidden;
+} 
+input{
+    width: 200px;
+    color:white;
+    height: 30px;
+    background-color: rgb(252, 87, 87);
+    border: none;
+    opacity: 0.80;
+}
+main{
+    background-image: linear-gradient(to left,rgb(228, 80, 102),rgb(224, 240, 168));
+
+    min-height: 645px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+footer{
+    background-image: linear-gradient(to left,rgb(228, 80, 102),rgb(224, 240, 168));
+    
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 15px;
+    height: 700px;;
+}
+#last-div .last-page-text{
+    margin-left: 20px;
+    margin-top: 250px;
+    margin-bottom: 150px;
+    margin-right: 400px;
+    align-items: center;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,;
+   
+    background-color: rgb(252, 87, 87);
+    
+}
+#last-div{
+    float: right;
+    align-content:center;
+    
+}
+
+.child{
+    justify-items: center;
+}
+@media only screen and (max-width:480px){
+    footer{
+        overflow: scroll;
+    }
+    ul{
+        font-size: 5px;
+    }
+    main{
+        overflow: scroll;
+    }
+    header{
+        overflow: scroll;
+    }
+}
